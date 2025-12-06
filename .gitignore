@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# VSCode/CLion/etc
+.vscode/
+.idea/
+
+# Logs
+*.log
